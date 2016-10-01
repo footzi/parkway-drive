@@ -1,0 +1,77 @@
+body{
+  width:960px;
+  margin:auto;
+  padding:0;
+  background-color: black;
+}
+nav{
+  text-align: center;
+}
+.sign-in{
+  width: 960px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+p {
+  color: white;
+  font-size: 16px;
+  display: inline;
+  padding-left: 10px;
+}
+.video{
+  display: inline;
+
+}
+.foto {
+  display: inline;
+
+}
+li{
+  display: inline;
+  border: 2px solid white;
+  padding: 5px 52px;
+}
+h1 {
+  text-align: center;
+  color:white;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+#order {
+  width: 450px;
+  float:left;
+  outline: 2px solid red;
+}
+#order1 {
+    width: 450px;
+    float:right;
+    outline: 2px solid red;
+}
+.ticket{
+  padding-left:25%;
+}
+h2{
+  color: white;
+  font-size:15px;
+}
+form {
+  padding: 0 23%;
+}
+.button {
+  padding:5px 25px;
+}
+.clear {
+  clear: both;
+}
+.social {
+  text-align:center;
+}
+.fa{
+  color: white;
+  padding-right: 15px;
+
+}

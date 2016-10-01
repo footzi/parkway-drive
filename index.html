@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <title>Купи билет на Parkway Drive!</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+ <header>
+    <img src="style/logo.png">
+    <div class="sign-in">
+      <p> Логин: </p>
+      <input type="text" name="login" value="login">
+      <p> Пароль: </p>
+      <input type="password" name="password" value="password">
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Main</a></li>
+      <li><a href="#">Merch</a></li>
+      <li><a href="#">Video</a></li>
+      <li><a href="#">Tour</a></li>
+      <li><a href="#">History</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="video">
+      <video src="media/Parkway_Drive.mp4" controls >
+      </video>
+    </div>
+    <div class="foto">
+    <img align="top" src="style/image.jpg"> </a>
+   </div>
+   <h1> Купи билет на концерт своей мечты!</h1>
+   <div id="order">
+     <img class="ticket "src="style/ticket.png">
+     <form>
+       <h2>г. Москва</h2>
+       <h2> Фамилия:</h2>
+         <input type="text">
+       <h2> Имя:</h2>
+         <input type="text">
+       <h2> Площадка:</h2>
+         <input list="area-MSC">
+          <datalist id="area-MSC">
+            <option value="Crocus City Hall"> </option>
+            <option value="СК Олимпийский"> </option>
+            <option value="Stadium Live"> </option>
+          </datalist>
+        <h2>Способ оплаты: </h2>
+         <input type="radio" value="ie">
+         <font color="white" checked> Наличные </font>
+         <input type="radio">
+         <font color="white">Картой </font>
+        <div class="button">
+         <input type="submit" value="Купить">
+         <input type="reset">
+        </div>
+     </form>
+   </div>
+   <div id="order1">
+     <img class="ticket "src="style/ticket.png">
+     <form>
+       <h2>г. Санкт-Петербург</h2>
+       <h2> Фамилия:</h2>
+         <input type="text">
+       <h2> Имя:</h2>
+         <input type="text">
+       <h2> Площадка:</h2>
+         <input list="area-SPB">
+          <datalist id="area-SPB">
+            <option value="A2 Green Сoncert"> </option>
+            <option value="Клуб "Backstage""> </option>
+            <option value="Петербургский Спортивно-Концертный Комплекс"> </option>
+          </datalist>
+        <h2>Способ оплаты: </h2>
+         <input type="radio" value="ie">
+         <font color="white" checked> Наличные </font>
+         <input type="radio">
+         <font color="white">Картой </font>
+        <div class="button">
+         <input type="submit" value="Купить">
+         <input type="reset">
+        </div>
+     </form>
+   </div>
+   <div class="clear">
+   </div>
+<footer>
+    <div class="social">
+      <a href="http://facebook.com"> <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+      <a href="http://vk.com"> <i class="fa fa-vk fa-lg" aria-hidden="true"></i></a>
+      <a href="http://instagram.com"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+    </div>
+</footer>
+</body>
+</html>

@@ -44,12 +44,10 @@ a {
 #order {
   width: 450px;
   float:left;
-  outline: 2px solid red;
 }
 #order1 {
     width: 450px;
     float:right;
-    outline: 2px solid red;
 }
 .ticket{
   padding-left:25%;
